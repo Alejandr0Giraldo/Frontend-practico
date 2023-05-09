@@ -47,6 +47,12 @@ body {
     height: 132px;
     border-radius: 50%;
     background-color: var(--text-input-field);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.email-image img {
+    width: 80px;
 }
 
 .primary-button {
