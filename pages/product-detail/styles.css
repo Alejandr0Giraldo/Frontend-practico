@@ -1,0 +1,33 @@
+:root {
+    --white: #FFFFFF;
+    --black: #000000;
+    --ver-light-pink: #c7c7c7;
+    --text-input-field: #F7F7F7;
+    --hospital-green: #acd9b2;
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px;
+}
+body {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+.product-detail {
+    width: 360px;
+}
+.primary-button {
+    background-color: var(--hospital-green);
+    border-radius: 8px;
+    border: none;
+    color: var(--white);
+    width: 100%;
+    cursor: pointer;
+    font-size: var(--md);
+    font-weight: bold;
+    height: 50px;
+}
+.add-to-card-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
